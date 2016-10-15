@@ -1,0 +1,137 @@
+body {
+	background-color: #FAAB43;
+}
+
+.Header {
+	text-align: center;
+	font-size: 60px;
+	color: ;
+}
+
+.Header h1 {
+	font-size: 60px;
+	width: 600px;
+	margin: 0px auto;
+	font-family: anton, sans-serif;
+}
+
+.menu {
+	width: 900px;
+	margin: auto;
+}
+
+#wood {
+	width: 445px;
+	height: 120px;
+	background-image: url("Assets/images/banner1.jpg");
+	display: inline;
+	cursor: pointer;
+	font-weight: bolder;
+	font-size: 55px;
+	color: #fff;
+}
+
+#metal {
+	width: 445px;
+	height: 120px;
+	background-image: url("Assets/images/banner2.jpg");
+	display: inline;
+	cursor: pointer;
+	font-weight: bolder;
+	font-size: 55px;
+	color: #fff;
+}
+
+}
+
+#email {
+	float: right;
+	line-height: 30px;
+	font-size: 20px;
+	padding-left: 0px;
+	text-align: left;
+}
+
+h2{
+	font-size: 35px;
+}
+
+li {
+	font-size: 20px;
+}
+
+.skills {
+	width: 310px;
+	float: left;
+	display: inline-block;
+}
+
+.pic {
+	background-size: cover;
+	background-position: center center;
+	width: calc(20% - 14px);
+	padding-top: calc(20% - 14px);
+	margin: 7px;
+	float: left;
+	border-radius: 20px;
+}
+
+p {
+	font-size: 23px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.pics {
+	display: block;
+	float: left;
+	width: calc(100% - 324px);
+	margin: 0px auto;
+	padding: 7px;
+}
+
+#FB {
+	width: 200px;
+	height: 69px;
+}
+
+.text {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+#FB:hover {
+	width: 210px;
+	height: 75px;
+}
+
+#mine {
+	clear: left;
+	font-size: 12px;
+}
+
+.info {
+	margin: auto;
+}
+
+#description {
+	font-size: 30px;
+
+}
+
+.home {
+	margin: auto;
+	width: 400px;
+}
+
+#homebutton {
+	width: 393px;
+	background-color: orange;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+a:visited, a:active, a:focus, a {
+	text-decoration: none;
+}
