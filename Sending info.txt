@@ -1,0 +1,6 @@
+cd Documents/My Site/
+git status
+git add *
+git status
+git commit -m "message goes here"
+git push origin develop

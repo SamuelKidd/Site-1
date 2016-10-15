@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="lightbox/dist/css/lightbox.css"/>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<title>Krzysztof Marcinkowski</title>
+	</head>
+	<body>
+		<div class="Header">
+			<h1>Krzysztof Marcinkowski</h1>
+		</div>
+		<div class="menu">
+			<a href="metal.html"><button id="metal">METAL WORK</button></a>
+			<a href="wood.html"><button id="wood">WOOD WORK</button></a>
+		</div>
+    <div class="home">
+      <a href="index.html"><button id="homebutton">HOME</button></a>
+    </div>
+    <div class="info">
+      <p id="description">FREELANCE FABRICATOR/WELDER<br>
+        Fab/Welder With 10+ Years Experience, Based in Yorkshire
+      </p>
+    </div>
+		<div class="contact">
+			<p style="font-size:30px">marcinkowski79@yahoo.com</p>
+			<p>07742384186</p>
+		</div>
+		<p id="mine">Made By Sam Kidd - s8muel@hotmail.com</p>
+		<script src="lightbox/dist/js/lightbox.js"></script>
+		<script>
+		$(document).ready(function(){
+			$(".menu").click(function(){
+				$(".menu2").show();
+			});
+			<!--$(".menu").click(function(){
+				$(".menu2").hide();
+			});
+		});
+		</script>
+	</body>
+</html>

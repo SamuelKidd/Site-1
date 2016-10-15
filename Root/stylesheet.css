@@ -28,11 +28,10 @@ h1 {
 }
 
 td {
-  width:190px;
+  width:247px;
   text-align: center;
-
   font-size: 20px;
-  display:inline;
+  display: inline;
 }
 
 .dropbtn {
@@ -54,7 +53,7 @@ td {
   display: none;
   position: absolute;
   background-color: green;
-  width:190px;
+  width:247px;
   box-shadow: 0px, 0px, 2px, 2px;
 }
 
@@ -74,4 +73,8 @@ td {
 
 .dropdown:hover .dropbtn {
   background-color: red;
+}
+
+img {
+  margin-top: 20px;
 }
