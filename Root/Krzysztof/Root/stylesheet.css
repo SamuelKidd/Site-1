@@ -1,5 +1,5 @@
 body {
-	background-color:#FAAB43;
+	background-color: #FAAB43;
 }
 
 .Header {
@@ -9,9 +9,9 @@ body {
 }
 
 .Header h1 {
-	font-size:60px;
-	width:600px;
-	margin:0px auto;
+	font-size: 60px;
+	width: 600px;
+	margin: 0px auto;
 	font-family: anton, sans-serif;
 }
 
@@ -45,11 +45,11 @@ body {
 }
 
 #email {
-	float:right;
-	line-height:30px;
-	font-size:20px;
-	padding-left:0px;
-	text-align:left;
+	float: right;
+	line-height: 30px;
+	font-size: 20px;
+	padding-left: 0px;
+	text-align: left;
 }
 
 h2{
@@ -63,15 +63,15 @@ li {
 .skills {
 	width: 310px;
 	float: left;
-	display:inline-block;
+	display: inline-block;
 }
 
 .pic {
-	background-size:cover;
-	background-position:center center;
+	background-size: cover;
+	background-position: center center;
 	width: calc(20% - 14px);
-	padding-top:calc(20% - 14px);
-	margin:7px;
+	padding-top: calc(20% - 14px);
+	margin: 7px;
 	float: left;
 	border-radius: 20px;
 }
@@ -79,35 +79,35 @@ li {
 p {
 	font-size: 23px;
 	font-weight: bold;
-	text-align:center;
+	text-align: center;
 }
 
 .pics {
-	display:block;
-	float:left;
-	width:calc(100% - 324px);
-	margin:0px auto;
-	padding:7px;
+	display: block;
+	float: left;
+	width: calc(100% - 324px);
+	margin: 0px auto;
+	padding: 7px;
 }
 
 #FB {
-	width:200px;
-	height:69px;
+	width: 200px;
+	height: 69px;
 }
 
 .text {
-	font-size:20px;
-	margin-top:20px;
+	font-size: 20px;
+	margin-top: 20px;
 }
 
 #FB:hover {
-	width:210px;
-	height:75px;
+	width: 210px;
+	height: 75px;
 }
 
 #mine {
-	clear:left;
-	font-size:12px;
+	clear: left;
+	font-size: 12px;
 }
 
 .info {
