@@ -1,30 +1,32 @@
 body {
-  background-color: yellow;
+  background-color: #c05e03;
+  margin: 0px;
 }
 
-.main {
-  width: 1000px;
-  margin: 0px auto;
+.menubar{
+    background-color: #0c1127
 }
 
 .header {
-  background-color: orange;
   margin-bottom: : 0px;
   height: 80px;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  margin: auto;
+  width: 1170px;
 }
 
 h1 {
+  margin: 0px;
   text-align: center;
   font-size: 60px;
+  color: #fff;
 }
 
 .menu {
-  background-color: blue;
   margin-top: 0px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  margin: auto;
+  width: 1000px;
 }
 
 td {
@@ -35,13 +37,14 @@ td {
 }
 
 .dropbtn {
-  background-color: blue;
+  background-color: inherit;
+  color: #eee;
   padding-left: 10px;
   padding-right: 10px;
   font-size: 20px;
   font-weight: bold;
-  border: 2px solid black;
   cursor: pointer;
+  border: none;
 }
 
 .dropdown {
@@ -52,7 +55,7 @@ td {
 .content {
   display: none;
   position: absolute;
-  background-color: green;
+  background-color: #eee;
   width: 247px;
   box-shadow: 0px, 0px, 2px, 2px;
 }
@@ -61,10 +64,13 @@ td {
   color: black;
   display: block;
   padding: 10px 10px;
+  text-decoration: none;
+  transition: all ease 0.3s;
 }
 
 .content a:hover {
-  background-color: red;
+  background-color: #303030;
+  color: #eee;
 }
 
 .dropdown:hover .content {
@@ -72,9 +78,15 @@ td {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: red;
+  text-decoration: underline;
 }
 
 img {
   margin-top: 20px;
+}
+
+@media (max-width:1170px){
+  .header{
+    width: 100%;
+  }
 }
