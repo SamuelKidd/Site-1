@@ -1,3 +1,5 @@
+cd Documents\My Site\Krzysztof
+
 cd Documents/My Site/
 git status
 git add *

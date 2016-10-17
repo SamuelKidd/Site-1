@@ -3,6 +3,11 @@ body {
   margin: 0px;
 }
 
+.main {
+  width: 1170px;
+  margin: auto;
+}
+
 .menubar{
     background-color: #0c1127
 }
@@ -21,6 +26,10 @@ h1 {
   color: #fff;
 }
 
+.home:visited, .home:active, .home:focus, .home {
+  text-decoration: none;
+}
+
 .menu {
   margin-top: 0px;
   border-bottom-left-radius: 10px;
@@ -29,8 +38,15 @@ h1 {
   width: 1000px;
 }
 
+img {
+  height: 300px;
+  width: 310px;
+  border-radius: 20px;
+  margin-left: 430px;
+}
+
 td {
-  width: 247px;
+  width: 180px;
   text-align: center;
   font-size: 20px;
   display: inline;
@@ -56,7 +72,7 @@ td {
   display: none;
   position: absolute;
   background-color: #eee;
-  width: 247px;
+  width: 180px;
   box-shadow: 0px, 0px, 2px, 2px;
 }
 
@@ -83,6 +99,15 @@ td {
 
 img {
   margin-top: 20px;
+}
+
+.aboutme {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  font-size: 22px;
+  font-family: anton, sans-serif;
+  line-height: 180%;
 }
 
 @media (max-width:1170px){
