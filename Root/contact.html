@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+  <title>Samuel Kidd</title>
+</head>
+<body>
+  <div class="menubar">
+    <div class="header">
+      <div class="container">
+        <a class="home" href="index.html"><h1>Samuel Kidd</h1></a>
+      </div>
+    </div>
+    <div class="menu">
+      <div class="container">
+        <table>
+          <tr>
+            <td class="dropdown">
+              <button class="dropbtn">My Sites</button>
+              <div class="content">
+                <a href="Krzysztof/index.html" target="_blank">Krzysztof</a>
+              </div>
+            </td>
+            <td class="dropdown">
+              <button class="dropbtn">Work</button>
+              <div class="content">
+                <a href="mawsons.html">R.H.Mawsons</a>
+                <a href="stage1.html">Stage One</a>
+                <a href="races.html">Wetherby Races</a>
+              </div>
+            </td>
+            <td class="dropdown">
+              <button class="dropbtn">Cycling</button>
+              <div class="content">
+                <a href="gybr.html">GYBR</a>
+                <a href="tour.html">Tour De Yorkshire</a>
+                <a href="wiggle.html">Wiggle</a>
+                <a href="depart.html">Le Petit Depart</a>
+              </div>
+            </td>
+            <td class="dropdown">
+              <button class="dropbtn">Entertainment</button>
+              <div class="content">
+                <a href="games.html">Games</a>
+                <a href="tv.html">TV Shows</a>
+                <a href="movies.html">Movies</a>
+              </div>
+            </td>
+            <td class="dropdown">
+              <a href="contact.html"><button class="dropbtn">Contact Me</button></a>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="container main-content">
+    <div class="padding">
+      <h2>Contact Me</h1>
+        <?
+          if ($_SESSION["error"]=="1") { echo "<span style='color:red; font-weight:bold;'>Please enter all the requiered information.</span><br><br>"; }
+          if ($_SESSION["error"]=="2") { echo "<span style='color:red; font-weight:bold;'>Please enter a valid email address.</span><br><br>"; }
+          if ($_SESSION["error"]=="3") { echo "<span style='color:green; font-weight:bold;'>Message Sent!</span><br><br>"; }
+          $_SESSION["error"]="";
+          ?>
+        <form class="contact bold" action="send.php" method="post">
+        <label for="firstname">First Name</label>
+        <input id="firstname" type="text" name="firstname"><br />
+        <label for="lastname">Last Name</label>
+        <input id="lastname" type="text" name="lastname" />
+        <label for="email">Email</label>
+        <input id="email" type="text" name="email" />
+        <label for="email">Message</label>
+        <textarea></textarea><br />
+        <input type="submit" />
+      </form>
+    </div>
+  </div>
+</body>
+</html>
