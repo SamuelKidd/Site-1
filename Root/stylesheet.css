@@ -53,20 +53,16 @@ body {
 }
 
 .dropbtn {
+  position: relative;
+  display: inline-block;
   padding: 10px 10px 10px 10px;
   margin-left: 5px;
   margin-right: 5px;
   font-size: 20px;
-  font-weight: ;
   cursor: pointer;
   border: none;
   background-color: inherit;
   color: #fff;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
 }
 
 .content {
@@ -75,6 +71,7 @@ body {
   width: 150px;
   box-shadow: 0px, 0px, 2px, 2px;
   padding-left: 5px;
+  list-style-type: none;
 }
 
 .content a {
@@ -91,11 +88,11 @@ body {
   color: #eee;
 }
 
-.dropdown:hover .content {
+.dropbtn:hover .content {
   display: block;
 }
 
-.dropdown:hover .dropbtn {
+.dropbtn:hover .dropbtn {
   text-decoration: underline;
 }
 
@@ -163,9 +160,15 @@ body {
 }
 
 .footer {
+  clear: both;
   background-color: #404040;
+  padding-top: 17px;
   height: 50px;
   text-align: center;
   font-size: 20px;
   color: #fff;
+}
+
+.footer:before{
+  clear:both;
 }
